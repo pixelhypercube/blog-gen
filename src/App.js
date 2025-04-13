@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import BlogWriter from "./components/BlogWriter.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import {Alert,AlertHeading} from "react-bootstrap";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div >
+      <header>
+        <h1>Form Generation Tool!</h1>
       </header>
+      <div className="container">
+        <br></br>
+        <Alert variant="success">
+          <AlertHeading>
+            <h4>Blog Formatter and Generator</h4>
+          </AlertHeading>
+          <p>Write your blog, then generate the output!</p>
+        </Alert>
+        <BlogWriter></BlogWriter>
+      </div>
     </div>
   );
 }
