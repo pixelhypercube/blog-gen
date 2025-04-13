@@ -10,15 +10,16 @@ function App() {
     <div >
       <header>
         <h1>Form Generation Tool!</h1>
+        <p>Write your blog, then generate the output!</p>
       </header>
       <div className="container">
         <br></br>
-        <Alert variant="success">
+        {/* <Alert variant="success">
           <AlertHeading>
             <h4>Blog Formatter and Generator</h4>
           </AlertHeading>
           <p>Write your blog, then generate the output!</p>
-        </Alert>
+        </Alert> */}
         <BlogWriter></BlogWriter>
       </div>
     </div>
