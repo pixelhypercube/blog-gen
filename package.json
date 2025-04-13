@@ -2,7 +2,7 @@
   "name": "blog-gen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pixelhypercube.github.io/blog-generator",
+  "homepage": "https://pixelhypercube.github.io/blog-gen",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
